@@ -1,55 +1,180 @@
 <!DOCTYPE html>
-     <html> 
-        <head>
-            <title> My first page! </title>
-            <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+ 
+<html lang="en"> 
+            <head>
+                <title> My first page! </title>
+                <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+                
+
+                
+
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="A brief description of the page's content.">
+                <meta name="keywords" content="your,keywords,here">
+
+                <script src="js\script.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
             
-        </head>
-       <body> 
-          <!-- Main content starts here   -->
-    <header>
-<div class="main content">
-     <!--Start header-->
-    <header>
-         <div class=" nav-wraper">
-            <div class="logo">
-            Logo
-         </div>
+            </head>
             
-            <nav>
-                <ul>
-                    <li> About me </li>
-                    <li> My works </li>
-                    <li> Work process </li>
-                </ul>
-            </nav>
+           <body> 
+            <!-- Main content starts here   -->
+        <div class="main-content-wrapper">
+                <!--Start header-->
+                    <header>
+                        
+                            <div class= "nav-wrapper">
+                                
+                                <nav id="top-nav">
+                                    <div id="logo" class="logo">
+                                        Likelove
+                                    </div>     
+                                   
+                                    <ul>
+                                        <a href="url"><li>  Me </li></a>
+                                        <a href="url"><li> My works </li></a>
+                                        <a href="url"> <li> Work process </li></a>
+                                    </ul>
+                                        
+                                    <a href="#social-media"></a>
+                                        <button class="button"> 
+                                            Contact
+                                        </button>
+                                    </a>
+                                 </nav>
+                                
+                            </div> 
+                                
+                            
+                            <div class=" title-wrapper">
+                                    <h1> Liubava Shemena</h1>
+                                    <img  class=tittle-wrapper-img  src="img\banner.jpg" alt="banner image"/>
+
+                                </div>
+                                <div id="intro-wrapp-id" class="intro-wrapper">
+                                    <p> 
+                                        Hi! <span class="highlight"> My name is Liubava </span>,
+                                        I'm web-designer. I create websites with its own special 
+                                        twist that convey the value of the brand
+                                         to the client.
+                                    </p>      
+                                    <button class="button"> Get started</button>
+
+                                </div>
+                    </header>
+                    
+                   
+             
+                    <!--End header-->
+                  
+       <!--My works-->
+
+<div id= "my-works" class="my-works"> 
+    <div class="my-works-text">
+        <p>(1) My works</p>
+    </div>
+        <div class="my-projects">
+            <div class="project">
+                <img src="img\project 01 image.jpg" alt="River" /> 
+                
+                <p id="Project01"> Project 01</p>
+                 <button class="button3">Learn more</button>
+            </div>
+                <div class="project">
+                    <img src="img\project 02 image.jpeg" alt="Forest"/>
+                    <p id="Project02"> Project 02</p>
+                    <button class="button4">Learn more</button>
+                </div>
+                    <div class="project">
+                        <img src="img\project 03 image.jpeg" alt="Project 03 image"/>
+                        <p id="Project03"> Project 03</p>
+                        <button class="button5">Learn more</button>
+                     </div>
         </div>
-    </header>
- <!--End header-->
-            <button> 
-                Contact
-             </button>
-        </div> 
-        </body>
+
+<!--End my Works-->
+
+<!--Work process-->
+<div id="work process" class="work process">
+    <div class="work-process-text">
+        <h>(2) Work process</h>
+    </div>
+        <div class="paragraph1">
+            <p> Briefing</p>
+        </div>
 </div>
-<div class="my_div">
+        <div class="briefing-text">
+            <h>Determining the desired functionality, agreeing on the price and deadlines</h>
+        </div>
+             <div class="paragraph2">
+                <p>Analysis</p>
+            </div>
+            <div class="analysis-text">
+                <h>Analysis of the company, target audience and competitors</h>
+            </div>
+            <div class="paragraph3">
+                <p>Prototype</p>
+            </div>
+            <div class="prototype-text">
+                <h>Creating a layout and a site map with all pages and sections</h>
+            </div>
+            <div class="paragraph4">
+                <p>Design</p>
+            </div>
+            <div class="design-text">
+                <h>Designing all pages of the site for desktop and mobile devices</h>
+            </div>
+            <div class="paragraph5">
+                <p>Layout and set up</p>
+            </div>
+            <div class="layout-text">
+                <h>Layout design on Tilda, setting up animations, 
+                    connecting the necessary features and services, 
+                    adaptation for desktop and mobile devices</h>
+            </div>
+            <!--End Work process-->
+             
+           
+            <!--Footer-->
+            <div class="footer-wrapper">
+                    <div class="contact-text">
+                            <h>(3) Contact</h>
+                     </div> 
+            <div class="paragraph6">
+                <p>Get in touch</p>
+            </div>    
+            
+            
 
-</div>
+            <form action="/action_page.php">
+                <label for="fname"> Full name:</label><br>
+                <input type="text" id="fullname" name="fullname" ><br>
+                <label for="Email">Email:</label><br>
+                <input type="text" id="Email" name="Email" ><br><br>
+                 <input type="submit" id="Get started" value="Get started">
+            </form>
+            
+        
+                    
+
+            </div>
+
+
+            
+          
 
 
 
 
 
+  
 
 
 
 
 
+</div> 
 
+    </body>
 
-
-
-
-
-
-</html>
+ </html>
